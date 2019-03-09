@@ -1,15 +1,58 @@
-#Điều kiện lồng là trong một câu lệnh if, chúng ta có thêm các cậu lệnh if và else khác trong đó. 
-a = int(input("Nhập vào a:"))
-b = int(input("Nhập vào b:"))
+from turtle import*
+
+colors = ['red','blue','brown','yellow','grey']
+
+color(colors[0],colors[0])
+begin_fill()
+for i in range(2):
+    forward(40)
+    left(90)
+    forward(70)
+    left(90)
+forward(40)
+
+end_fill()
 
 
+color(colors[1],colors[1])
+begin_fill()
+for i in range(2):
+    forward(40)
+    left(90)
+    forward(70)
+    left(90)
+forward(40)
+end_fill()
 
-if a > b :
-    print("a lớn hơn b")
-else:
-    if a < b:
-        print("a nhỏ hơn b")
-    elif a == b:
-        print("a bằng b")    
-    
+color(colors[2],colors[2])
+begin_fill()
+for i in range(2):
+    forward(40)
+    left(90)
+    forward(70)
+    left(90)
+forward(40)
+end_fill()
 
+color(colors[3],colors[3])
+begin_fill()
+for i in range(2):
+    forward(40)
+    left(90)
+    forward(70)
+    left(90)
+forward(40)
+end_fill()
+
+color(colors[4],colors[4])
+begin_fill()
+for i in range(2):
+    forward(40)
+    left(90)
+    forward(70)
+    left(90)
+forward(40)
+end_fill()
+
+
+mainloop()
