@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List-cafe-in-Hanoi</title>
+</head>
+<body>
+    <h2>List of all Cafe in Hà Nội</h2>
+    {%for cafe in all_cafes %}
+    <div>
+        <b>Name:</b> {{cafe.Name}} </br>
+        <b>Address:</b> {{cafe.Address}} </br>
+        <b>Menu:</b> {{cafe.Menu}} </br>
+        <b>Contacts:</b> {{cafe.Contacts}} </br>
+        <hr>
+    </div>
+
+    {% endfor %}
+</body>
+</html>
